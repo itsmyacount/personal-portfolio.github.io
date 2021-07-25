@@ -916,6 +916,18 @@ Contact Section
   background-color: var(--main-color);
 }
 
+.alert{
+  text-align: center;
+  padding: 25px 20px;
+  margin: 25px 20px;
+  background-color: var(--white-alpha-25);
+  border: 1px solid var(--white-alpha-40);
+  border-radius: 25px;
+  color: var(--main-color);
+  width: 100%;
+  display: none;
+}
+
 
 /* Responsive web design*/
 

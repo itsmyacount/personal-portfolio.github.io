@@ -48,6 +48,18 @@ function submitForm(e){
   var message = getInputVal('message');
 
   saveMessage(name, email, subject, message);
+
+
+
+  /* Contact section -- for alert message */
+document.querySelector('.alert').style.display = 'block'; //show alert
+
+setTimeout(function(){
+    document.querySelector('.alert').style.display = 'none';
+  },3000);
+
+
+  document.getElementById('contactForm').reset();
 }
 
 //function to get elemt by id - making code short by not typing document.<----> again and again.
