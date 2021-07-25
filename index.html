@@ -261,19 +261,19 @@
       </div>
       <div class="row">
         <div class="contact-form">
-          <form>
+          <form id="contactForm">
             <div class="row">
               <div class="input-group">
-                <input type="text" placeholder="Name" class="input-control required">
+                <input type="text" placeholder="Name" class="input-control required" id="name">
               </div>
               <div class="input-group">
-                <input type="text" placeholder="Email" class="input-control required">
+                <input type="text" placeholder="Email" class="input-control required" id="email">
               </div>
               <div class="input-group">
-                <input type="text" placeholder="Subject" class="input-control required">
+                <input type="text" placeholder="Subject" class="input-control required" id="subject">
               </div>
               <div class="input-group">
-                <textarea placeholder="Message" class="input-control" required></textarea>
+                <textarea placeholder="Message" class="input-control" required id="message"></textarea>
               </div>
               <div class="submit-btn">
                 <button type="submit" class="btn">Submit</button>
@@ -333,6 +333,15 @@
 </div>
 
 <!-- Porfolio item popup End-->
+
+
+
 <script src="js/script.js"></script>
+
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.8.0/firebase-database.js"></script>
+
+<script src="js/firebase.js"></script>
+
 </body>
 </html>
