@@ -600,6 +600,30 @@ padding: 0 15px;
   border-radius: 20px;
 }
 
+.about-text .skill-item:hover span{
+  display: none;
+}
+
+.int:hover::before{
+  content: "Intermediate";
+  color: var(--white);
+  font-weight: 400;
+}
+
+.beg:hover::before{
+  content: "Beginner";
+  color: var(--white);
+  font-weight: 400;
+}
+
+.about-text .skill-item:hover{
+  background-color: var(--main-color);
+  opacity: 0.7;
+  border: 1px solid var(--white);
+}
+
+
+
 .about-tabs .tab-item{
   padding: 2px 0;
   background-color: transparent;
